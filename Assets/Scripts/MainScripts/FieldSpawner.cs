@@ -9,27 +9,29 @@ using UnityEngine.UI;
 public class FieldSpawner : MonoBehaviour
 {
     [SerializeField] private float _stepSpawnDistance;
-    private Vector3[,] _pointsPositions;
-    private Vector2Int _spawnPoint = new Vector2Int(0,0);
+    private Point[,] _points;
 
     public Field CreatingField(Vector2Int sizeMap, Vector2Int startPoint)
     {
-        GameObject[,] points = new GameObject[sizeMap.x, sizeMap.y];
-        Vector3[,] pointsPosition = new Vector3[sizeMap.x, sizeMap.y];
+        _points = new Point[sizeMap.x, sizeMap.y];
         Vector2Int positionNumber = new Vector2Int();
 
         int size = sizeMap.x * sizeMap.y;
-        _spawnPoint = startPoint;
 
         for (int i = 0; i < size; i++)
         {
             positionNumber.y = (i / sizeMap.x);
-            positionNumber.x = ((i % sizeMap.x));                     
+            positionNumber.x = ((i % sizeMap.x));
 
-            pointsPosition[positionNumber.x, positionNumber.y] = DefinePosition(positionNumber);
+            Vector3 pointPosition = DefinePosition(positionNumber);
+
+            if(positionNumber == startPoint)
+                _points[positionNumber.x, positionNumber.y] = new Point(pointPosition, gameObject);
+            else
+                _points[positionNumber.x, positionNumber.y] = new Point(pointPosition, null);
         }
-        _pointsPositions = pointsPosition;
-        Field field = new Field(pointsPosition, points, _spawnPoint, gameObject);
+
+        Field field = new Field(_points, startPoint);
 
         return field;
     }

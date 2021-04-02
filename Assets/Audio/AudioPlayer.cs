@@ -23,6 +23,7 @@ public class AudioPlayer : MonoBehaviour
     private IEnumerator PlayerAudio()
     {
         int tempClipNumber = _currentClipNumber;
+
         while (tempClipNumber == _currentClipNumber)
             tempClipNumber = Random.Range(0, _clips.Count);
 

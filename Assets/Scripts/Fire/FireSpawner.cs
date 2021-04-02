@@ -34,15 +34,18 @@ public class FireSpawner : ObjectPool
         if (TryGetObject(out GameObject fire))
         {
             fire.SetActive(true);
-            _field.GetPointPosition(spawnPointNumber, out Vector3 spawnPosition);
-            spawnPosition.y += _heightCorrection;
-            fire.transform.position = spawnPosition;
-            fire.transform.rotation = rotation;
+            if (_field.GetPoint(spawnPointNumber, out Point point))
+            {
+                Vector3 spawnPosition = point.GetPointPosition();
+                spawnPosition.y += _heightCorrection;
+                fire.transform.position = spawnPosition;
+                fire.transform.rotation = rotation;
 
-            float firePower = _fireControl.GetFirePower();
-            fire.GetComponent<Fire>().SetFirePower(firePower);
-            _fireControl.SetFire(fire.GetComponent<Fire>(), spawnPointNumber);
-            _field.SetPointContent(spawnPointNumber, fire);
+                float firePower = _fireControl.GetFirePower();
+                fire.GetComponent<Fire>().SetFirePower(firePower);
+                _fireControl.SetFire(fire.GetComponent<Fire>(), point);
+                point.SetPointContent(fire);
+            }
         }
     }
 }
