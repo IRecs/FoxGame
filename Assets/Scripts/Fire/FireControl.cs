@@ -27,16 +27,16 @@ public class FireControl : MonoBehaviour
         _field = field;
     }
 
-    public void SetFire(Fire fire, Vector2Int pointNumber)
+    public void SetFire(Fire fire, Point point)
     {
-        StartCoroutine(CombustionFire(fire, pointNumber));
+        StartCoroutine(CombustionFire(fire, point));
     }
 
-    private IEnumerator CombustionFire(Fire fire, Vector2Int pointNumber)
+    private IEnumerator CombustionFire(Fire fire, Point point)
     {
         float time = fire.GetFirePower();
         yield return new WaitForSeconds(time);
         fire.gameObject.SetActive(false);
-        _field.SetPointContent(pointNumber, null);
+        point.SetPointContent(null);
     }
 }

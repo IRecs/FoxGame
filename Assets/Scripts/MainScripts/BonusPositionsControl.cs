@@ -4,10 +4,11 @@ using UnityEngine;
 
 public class BonusPositionsControl : MonoBehaviour
 {
+    [SerializeField] private AudioSource _audioSource;
+    [SerializeField] private float _timeToWait = 1;
     private Field _field;
     private Bonus _bonus;
     private float _heightCorrection = 1f;
-    [SerializeField] private float _timeToWait = 1;
 
     public void SetField(Field field)
     {
@@ -22,12 +23,13 @@ public class BonusPositionsControl : MonoBehaviour
 
     public void ChangePositionBonus()
     {
-        if(_field.FindingFreePoint(out Vector2Int freePoint))
+        if(_field.FindingFreePoint(out Point freePoint))
         {
-            _field.GetPointPosition(freePoint, out Vector3 position);
+            _audioSource.Play();
+            Vector3 position = freePoint.GetPointPosition();
             position.y += _heightCorrection;
             _bonus.transform.position = position;
-            _field.SetPointContent(freePoint, _bonus.gameObject);
+            freePoint.SetPointContent(_bonus.gameObject);
         }        
     }
 }

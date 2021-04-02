@@ -8,20 +8,17 @@ using UnityEngine.Events;
 public class PlayerPositionsControl : MonoBehaviour
 {
     public event UnityAction<Vector2Int, Quaternion> RefreshPoint;
-
-    private Field _field;
-    private Animator _animator;
+    
     private CollisionHandling _collisionHandling;
     private MoverPlayer _moverPlayer;
-    private Vector2Int _curentPointNumber;
-    private Vector2Int _targetPointNumber;
+
+    private Vector2Int _curentPointNumber, _targetPointNumber;
+    private Point _curentPoint, _targetPoint;
+
     private Vector2Int _direction;
-    private Vector3 _targetPosition;
-    private bool _isFirstStep = true;
 
     private void OnEnable()
     {
-        _animator = GetComponentInChildren<Animator>();
         _moverPlayer = GetComponent<MoverPlayer>();
         _moverPlayer.NexStep += ChangeCurentPosition;
     }
@@ -37,32 +34,24 @@ public class PlayerPositionsControl : MonoBehaviour
     }
     public void SetField(Field field)
     {
-        _field = field;
-        _curentPointNumber = field.SpawnPoint;
+        _targetPointNumber = field.SpawnPoint;
 
-        field.GetPointPosition(field.SpawnPoint, out Vector3 spawnPosition);
-        transform.position = spawnPosition;
+        field.GetPoint(_targetPointNumber, out Point spawnPoint);
+        _targetPoint = spawnPoint;
+        transform.position = spawnPoint.GetPointPosition();
     }
 
     public void SetDirection(Vector2Int direction)
     {
-        _direction = direction;
-        if (_isFirstStep)
-        {
-            _animator.SetBool("Move", true);
-            ChangeCurentPosition();
-        }
+        _direction = direction;        
     }
 
     public void ChangeCurentPosition()
     {
-        if (!_isFirstStep)
-        {
-            _curentPointNumber = _targetPointNumber;
-            _field.SetPointContent(_curentPointNumber, gameObject);
-        }
+        _curentPointNumber = _targetPointNumber;
+        _curentPoint = _targetPoint;
+        _curentPoint.SetPointContent(gameObject);
 
-        _isFirstStep = false;
         RefreshTargetPoint();
     }
 
@@ -70,10 +59,10 @@ public class PlayerPositionsControl : MonoBehaviour
     {
         _targetPointNumber = _curentPointNumber + _direction;
 
-        if (_collisionHandling.DefineTargetPoint(_targetPointNumber, out _targetPosition))
+        if (_collisionHandling.DefineTargetPoint(_targetPointNumber, out _targetPoint))
         {
             RefreshPoint?.Invoke(_curentPointNumber, transform.rotation);
-            _moverPlayer.SetTargetPosition(_targetPosition);
+            _moverPlayer.SetTargetPosition(_targetPoint.GetPointPosition());
             return true;
         }
 

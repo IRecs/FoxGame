@@ -5,8 +5,7 @@ using UnityEngine;
 [RequireComponent(typeof(EndGame))]
 
 public class CollisionHandling : MonoBehaviour
-{
-    [SerializeField] private AudioSource _audioSource;
+{    
     private EndGame _endGame;
     private Field _field;
     private BonusPositionsControl _bonusPositionsControl;
@@ -32,33 +31,34 @@ public class CollisionHandling : MonoBehaviour
         _bonusPositionsControl = bonusPositionsControl;
     }
 
-    public bool DefineTargetPoint(Vector2Int targetPointNumber, out Vector3 targetPosition)
+    public bool DefineTargetPoint(Vector2Int targetPointNumber, out Point targetPoint)
     {
-        if (_field.GetPointContent(targetPointNumber, out GameObject content))
+        if (_field.GetPoint(targetPointNumber, out Point point))
         {
+            GameObject content = point.GetPointContent();
+
             if (content != null)
             {
                 if (content.TryGetComponent(out Bonus bonus))
                 {
                     _fireControl.AddFirePower(1);
-                    _audioSource.Play();
                     _bonusPositionsControl.ChangePositionBonus();                    
                 }
                 if (content.TryGetComponent(out Fire fire))
                 {
                     _endGame.FinishGame();
-                    targetPosition = Vector3.zero;
+                    targetPoint = null;
                     return false;
                 }
             }
-            _field.GetPointPosition(targetPointNumber, out targetPosition);
+            targetPoint = point;
             return true;
         }
         else
         {
             _endGame.FinishGame();           
         }
-        targetPosition = Vector3.zero;
+        targetPoint = null;
         return false;
     }
 }
