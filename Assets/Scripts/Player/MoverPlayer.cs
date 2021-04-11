@@ -6,25 +6,19 @@ using UnityEngine.Events;
 
 public class MoverPlayer : MonoBehaviour
 {
-    public event UnityAction NexStep;
+    public event UnityAction PointReached;
 
     [SerializeField] private float _speed;
 
     private Vector3 _targetPosition;
-    private bool _isChangePosition = true;
+    private bool _isCanChangePosition = true;
     private bool _isCanMove = false;
-    private Transform _transform;
-
-    private void Start()
-    {
-        _transform = GetComponent<Transform>();
-    }
 
     public void SetTargetPosition(Vector3 targetPosition)
     {
         _targetPosition = targetPosition;
-        _transform.LookAt(_targetPosition);
-        _isChangePosition = true;
+        transform.LookAt(_targetPosition);
+        _isCanChangePosition = true;
         _isCanMove = true;
     }
 
@@ -36,13 +30,13 @@ public class MoverPlayer : MonoBehaviour
 
     public void Move()
     {
-        _transform.position = Vector3.MoveTowards(_transform.position, _targetPosition, _speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position, _targetPosition, _speed * Time.deltaTime);
 
-        if (Vector3.Distance(_transform.position, _targetPosition) < 0.01f)
-            if (_isChangePosition)
+        if (Vector3.Distance(transform.position, _targetPosition) < 0.01f)
+            if (_isCanChangePosition)
             {
-                _isChangePosition = false;
-                NexStep?.Invoke();
+                _isCanChangePosition = false;
+                PointReached?.Invoke();
             }
     }
 

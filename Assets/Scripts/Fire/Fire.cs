@@ -6,7 +6,7 @@ public class Fire : MonoBehaviour
 {
     private float _firePower = 0;
 
-    public void SetFirePower(float firePower)
+    public void EnlargeFirePower(float firePower)
     {
         if(firePower >= 0)
             _firePower = firePower;

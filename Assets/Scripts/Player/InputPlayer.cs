@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Runtime.InteropServices.ComTypes;
 using UnityEngine;
 
-[RequireComponent (typeof (PlayerPositionsControl))]
+[RequireComponent (typeof (DeterminingTargetPosition))]
 [RequireComponent(typeof(Animation))]
 
 public class InputPlayer : MonoBehaviour
@@ -12,7 +12,7 @@ public class InputPlayer : MonoBehaviour
     private float _currentTimeWait = 0;
 
     private Animator _animator;
-    private PlayerPositionsControl _positionControl;
+    private DeterminingTargetPosition _positionControl;
     private Vector2Int _direction = new Vector2Int();
     private int _currentDirection = 1, _staticAxis = 0;
     private int _travelAxis = 1;
@@ -22,7 +22,7 @@ public class InputPlayer : MonoBehaviour
     private void Start()
     {
         _animator = GetComponentInChildren<Animator>();
-        _positionControl = GetComponent<PlayerPositionsControl>();
+        _positionControl = GetComponent<DeterminingTargetPosition>();
     }
 
     private void Update()
@@ -63,13 +63,13 @@ public class InputPlayer : MonoBehaviour
                 _direction.x = 0;
             }
 
-            _positionControl.SetDirection(_direction);
+            _positionControl.ChangeDirection(_direction);
 
             if (_isFirstStep)
             {
                 _isFirstStep = false;
                 _animator.SetBool("Move", true);
-                _positionControl.ChangeCurentPosition();
+                _positionControl.OnChangeCurentPosition();
             }
         }
     }

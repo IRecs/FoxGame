@@ -2,34 +2,33 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-[RequireComponent(typeof(FireControl))]
+[RequireComponent(typeof(FirePool))]
 
-public class FireSpawner : ObjectPool
+public class FireSpawner : FirePool
 {
-    private PlayerPositionsControl _playerPositionsControl;
+    private DeterminingTargetPosition _playerPositionsControl;
     private Field _field;
-    private FireControl _fireControl;
+    private FirePower _firePower;
     private float _heightCorrection = 0.019f;
 
-    public void SetFildAndPlayerPositionsControl(Field field, PlayerPositionsControl playerPositionsControl)
+    public void SetFildAndPlayerPositionsControl(Field field, DeterminingTargetPosition playerPositionsControl)
     {
         _field = field;
-        _fireControl.SetField(field);
         _playerPositionsControl = playerPositionsControl;
-        _playerPositionsControl.RefreshPoint += SetFire;
+        _playerPositionsControl.PositionСhanged += OnSetFire;
     }
 
     private void OnEnable()
     {
-        _fireControl = GetComponent<FireControl>();
+        _firePower = GetComponent<FirePower>();
     }
 
     private void OnDisable()
     {
-        _playerPositionsControl.RefreshPoint -= SetFire;
+        _playerPositionsControl.PositionСhanged -= OnSetFire;
     }
 
-    private void SetFire(Vector2Int spawnPointNumber, Quaternion rotation)
+    private void OnSetFire(Vector2Int spawnPointNumber, Quaternion rotation)
     {
         if (TryGetObject(out GameObject fire))
         {
@@ -41,9 +40,9 @@ public class FireSpawner : ObjectPool
                 fire.transform.position = spawnPosition;
                 fire.transform.rotation = rotation;
 
-                float firePower = _fireControl.GetFirePower();
-                fire.GetComponent<Fire>().SetFirePower(firePower);
-                _fireControl.SetFire(fire.GetComponent<Fire>(), point);
+                float firePower = _firePower.GetFirePower();
+                fire.GetComponent<Fire>().EnlargeFirePower(firePower);
+                AddFire(fire.GetComponent<Fire>(), point);
                 point.SetPointContent(fire);
             }
         }

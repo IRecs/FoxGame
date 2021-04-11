@@ -8,8 +8,7 @@ public class CollisionHandling : MonoBehaviour
 {    
     private EndGame _endGame;
     private Field _field;
-    private BonusPositionsControl _bonusPositionsControl;
-    private FireControl _fireControl;
+    private FirePower _firePower;
     
     private void Start()
     {
@@ -21,14 +20,9 @@ public class CollisionHandling : MonoBehaviour
         _field = field;
     }
 
-    public void SetFireControl(FireControl fireControl)
+    public void SetFireInfo(FirePower firePower)
     {
-        _fireControl = fireControl;
-    }
-
-    public void SetBonusControl(BonusPositionsControl bonusPositionsControl)
-    {
-        _bonusPositionsControl = bonusPositionsControl;
+        _firePower = firePower;        
     }
 
     public bool DefineTargetPoint(Vector2Int targetPointNumber, out Point targetPoint)
@@ -41,8 +35,8 @@ public class CollisionHandling : MonoBehaviour
             {
                 if (content.TryGetComponent(out Bonus bonus))
                 {
-                    _fireControl.AddFirePower(1);
-                    _bonusPositionsControl.ChangePositionBonus();                    
+                    _firePower.AddFirePower(1);
+                    bonus.ChangePositionBonus();                    
                 }
                 if (content.TryGetComponent(out Fire fire))
                 {
@@ -51,6 +45,7 @@ public class CollisionHandling : MonoBehaviour
                     return false;
                 }
             }
+
             targetPoint = point;
             return true;
         }
@@ -58,6 +53,7 @@ public class CollisionHandling : MonoBehaviour
         {
             _endGame.FinishGame();           
         }
+
         targetPoint = null;
         return false;
     }
