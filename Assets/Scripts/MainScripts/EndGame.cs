@@ -5,7 +5,7 @@ using UnityEngine.UI;
 
 public class EndGame : MonoBehaviour
 {
-    [SerializeField] private SceneСontrol _sceneСontrol;
+    [SerializeField] private SceneLoader _sceneСontrol;
     [SerializeField] private Animator _playerAnimator;
     [SerializeField] private Animator _endPanelAnimator;
     [SerializeField] private float _waitingTime;

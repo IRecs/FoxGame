@@ -25,6 +25,7 @@ public class Point : MonoBehaviour
 
     public void SetPointContent(GameObject content)
     {
-        _content = content;
+        if(content != _content)
+            _content = content;
     }
 }

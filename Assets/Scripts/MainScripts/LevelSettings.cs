@@ -7,11 +7,10 @@ public class LevelSettings : MonoBehaviour
     [SerializeField] private Vector2Int _sizeMap;
     [SerializeField] private Vector2Int _startPoint;
     [SerializeField] private FieldSpawner _fieldSpawner;
-    [SerializeField] private PlayerPositionsControl _playerPositionControl;
+    [SerializeField] private DeterminingTargetPosition _playerPositionControl;
     [SerializeField] private FireSpawner _fireSpawner;
     [SerializeField] private GameObject _fireTemplates;
-    [SerializeField] private FireControl _fireControl;
-    [SerializeField] private BonusPositionsControl _bonusPositionsControl;
+    [SerializeField] private FirePower _firePower;
     [SerializeField] private Bonus _bonus;
     [SerializeField] private CollisionHandling _collisionHandling;
     [SerializeField] private EndGame _endGame;
@@ -22,8 +21,7 @@ public class LevelSettings : MonoBehaviour
         field = _fieldSpawner.CreatingField(_sizeMap, _startPoint);        
 
         _collisionHandling.SetField(field);
-        _collisionHandling.SetFireControl(_fireControl);
-        _collisionHandling.SetBonusControl(_bonusPositionsControl);
+        _collisionHandling.SetFireInfo(_firePower);
 
         _playerPositionControl.SetField(field);
         _playerPositionControl.SetCollisionHandling(_collisionHandling);
@@ -31,7 +29,6 @@ public class LevelSettings : MonoBehaviour
         _fireSpawner.SetFildAndPlayerPositionsControl(field, _playerPositionControl);
         _fireSpawner.Initialize(_fireTemplates, _sizeMap.x * _sizeMap.y);
 
-        _bonusPositionsControl.SetField(field);
-        _bonusPositionsControl.SetBonus(_bonus);
+        _bonus.SetField(field);
     }
 }

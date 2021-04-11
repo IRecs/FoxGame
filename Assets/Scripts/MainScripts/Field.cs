@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
 public class Field : MonoBehaviour
@@ -36,7 +37,7 @@ public class Field : MonoBehaviour
         {
             for (int j = 0; j < _points.GetLength(1); j++)
             {
-                if(_points[i,j] == null)
+                if(_points[i,j].GetPointContent() == null)
                 {
                     freePoints.Add(_points[i, j]);
                 }
@@ -53,5 +54,6 @@ public class Field : MonoBehaviour
             freePoint = null;
             return false;
         }
+        
     }    
 }

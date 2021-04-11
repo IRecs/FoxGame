@@ -133,6 +133,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: RockGrey1
       objectReference: {fileID: 0}
+    - target: {fileID: 157192, guid: 84a240cf1c5ef5f4d8ff048828a60d97, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 428530, guid: 84a240cf1c5ef5f4d8ff048828a60d97, type: 3}
       propertyPath: m_LocalPosition.x
       value: -5.8439465
@@ -320,7 +324,7 @@ GameObject:
   - component: {fileID: 19402098}
   - component: {fileID: 19402097}
   - component: {fileID: 19402096}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -413,7 +417,7 @@ GameObject:
   - component: {fileID: 19432665}
   - component: {fileID: 19432664}
   - component: {fileID: 19432663}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -506,7 +510,7 @@ GameObject:
   - component: {fileID: 19486926}
   - component: {fileID: 19486925}
   - component: {fileID: 19486924}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -919,7 +923,7 @@ GameObject:
   m_Component:
   - component: {fileID: 41815879}
   - component: {fileID: 41815880}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -999,7 +1003,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 53236352}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Bricks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1202,7 +1206,7 @@ GameObject:
   - component: {fileID: 80237186}
   - component: {fileID: 80237185}
   - component: {fileID: 80237184}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1436,7 +1440,7 @@ GameObject:
   - component: {fileID: 83263468}
   - component: {fileID: 83263467}
   - component: {fileID: 83263466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1526,7 +1530,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 130023553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ' Walls'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1560,7 +1564,7 @@ GameObject:
   m_Component:
   - component: {fileID: 136305624}
   - component: {fileID: 136305625}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1772,7 +1776,7 @@ GameObject:
   m_Component:
   - component: {fileID: 163061101}
   - component: {fileID: 163061102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1853,7 +1857,7 @@ GameObject:
   m_Component:
   - component: {fileID: 169226257}
   - component: {fileID: 169226258}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1942,7 +1946,7 @@ GameObject:
   - component: {fileID: 180875460}
   - component: {fileID: 180875459}
   - component: {fileID: 180875458}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2033,7 +2037,7 @@ GameObject:
   m_Component:
   - component: {fileID: 181722353}
   - component: {fileID: 181722354}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2196,10 +2200,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -2219,7 +2233,7 @@ GameObject:
   m_Component:
   - component: {fileID: 187829219}
   - component: {fileID: 187829220}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2300,7 +2314,7 @@ GameObject:
   m_Component:
   - component: {fileID: 189123348}
   - component: {fileID: 189123349}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2463,10 +2477,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69388d2436f675f4e8605d34f49d98cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 69388d2436f675f4e8605d34f49d98cb,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 69388d2436f675f4e8605d34f49d98cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69388d2436f675f4e8605d34f49d98cb, type: 3}
@@ -2570,7 +2594,7 @@ GameObject:
   - component: {fileID: 223652304}
   - component: {fileID: 223652303}
   - component: {fileID: 223652302}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2743,10 +2767,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -2848,10 +2882,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -2873,7 +2917,7 @@ GameObject:
   - component: {fileID: 244985430}
   - component: {fileID: 244985429}
   - component: {fileID: 244985428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2966,7 +3010,7 @@ GameObject:
   - component: {fileID: 253734651}
   - component: {fileID: 253734650}
   - component: {fileID: 253734649}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ' Wall'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3059,7 +3103,7 @@ GameObject:
   - component: {fileID: 254136972}
   - component: {fileID: 254136971}
   - component: {fileID: 254136970}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3232,10 +3276,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -3255,7 +3309,7 @@ GameObject:
   m_Component:
   - component: {fileID: 260842366}
   - component: {fileID: 260842367}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3337,6 +3391,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gras
       objectReference: {fileID: 0}
+    - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 464626, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_LocalPosition.x
       value: -7.043947
@@ -3393,7 +3451,7 @@ GameObject:
   m_Component:
   - component: {fileID: 288649920}
   - component: {fileID: 288649921}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3611,7 +3669,7 @@ GameObject:
   - component: {fileID: 302320639}
   - component: {fileID: 302320638}
   - component: {fileID: 302320637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3704,7 +3762,7 @@ GameObject:
   - component: {fileID: 305334001}
   - component: {fileID: 305334000}
   - component: {fileID: 305333999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3797,7 +3855,7 @@ GameObject:
   - component: {fileID: 309647128}
   - component: {fileID: 309647127}
   - component: {fileID: 309647126}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3955,6 +4013,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 945394c48e8d56e4a9271e24aecb0ca6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -3969,6 +4032,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 945394c48e8d56e4a9271e24aecb0ca6, type: 3}
@@ -4094,10 +4162,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -4123,6 +4201,10 @@ PrefabInstance:
     - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_Name
       value: Gras
+      objectReference: {fileID: 0}
+    - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 464626, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_LocalPosition.x
@@ -4325,7 +4407,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 374203048}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tiles
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4430,7 +4512,7 @@ GameObject:
   - component: {fileID: 418985417}
   - component: {fileID: 418985416}
   - component: {fileID: 418985415}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4533,7 +4615,7 @@ GameObject:
   m_Component:
   - component: {fileID: 443099477}
   - component: {fileID: 443099478}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4616,7 +4698,7 @@ GameObject:
   - component: {fileID: 444277400}
   - component: {fileID: 444277399}
   - component: {fileID: 444277398}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ' Wall'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4715,7 +4797,7 @@ GameObject:
   - component: {fileID: 453845869}
   - component: {fileID: 453845868}
   - component: {fileID: 453845867}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5049,6 +5131,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bonus
       objectReference: {fileID: 0}
+    - target: {fileID: 2087769075121582902, guid: f605cc28823338e4794d73a736d4c47b,
+        type: 3}
+      propertyPath: _audioSource
+      value: 
+      objectReference: {fileID: 356381561}
     - target: {fileID: 3188882472592515149, guid: f605cc28823338e4794d73a736d4c47b,
         type: 3}
       propertyPath: m_Controller
@@ -5129,7 +5216,7 @@ GameObject:
   - component: {fileID: 503661534}
   - component: {fileID: 503661533}
   - component: {fileID: 503661532}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5380,6 +5467,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 945394c48e8d56e4a9271e24aecb0ca6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5394,6 +5486,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 945394c48e8d56e4a9271e24aecb0ca6, type: 3}
@@ -5415,7 +5512,7 @@ GameObject:
   - component: {fileID: 531517161}
   - component: {fileID: 531517160}
   - component: {fileID: 531517159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5508,7 +5605,7 @@ GameObject:
   - component: {fileID: 540723573}
   - component: {fileID: 540723572}
   - component: {fileID: 540723571}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5681,10 +5778,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -5710,7 +5817,7 @@ GameObject:
   m_Component:
   - component: {fileID: 553874255}
   - component: {fileID: 553874256}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5793,7 +5900,7 @@ GameObject:
   - component: {fileID: 573390174}
   - component: {fileID: 573390173}
   - component: {fileID: 573390172}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5976,7 +6083,7 @@ GameObject:
   m_Component:
   - component: {fileID: 588577856}
   - component: {fileID: 588577857}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6059,7 +6166,7 @@ GameObject:
   - component: {fileID: 589000686}
   - component: {fileID: 589000685}
   - component: {fileID: 589000684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6150,7 +6257,7 @@ GameObject:
   m_Component:
   - component: {fileID: 594768869}
   - component: {fileID: 594768870}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6230,7 +6337,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 598599337}
-  - component: {fileID: 598599336}
   - component: {fileID: 598599335}
   - component: {fileID: 598599334}
   m_Layer: 0
@@ -6249,7 +6355,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 598599333}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7a099da6eee65a44ba56613c1f392078, type: 3}
+  m_Script: {fileID: 11500000, guid: 8ea8eee6f8ff4794daaabc0fe065c471, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   _score: {fileID: 296468966}
@@ -6266,18 +6372,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _container: {fileID: 598599333}
---- !u!114 &598599336
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 598599333}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8ea8eee6f8ff4794daaabc0fe065c471, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!4 &598599337
 Transform:
   m_ObjectHideFlags: 0
@@ -6301,7 +6395,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 601884592}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Grass
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6422,10 +6516,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -6445,6 +6549,10 @@ PrefabInstance:
     - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_Name
       value: Gras
+      objectReference: {fileID: 0}
+    - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 464626, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6584,10 +6692,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -6744,7 +6862,7 @@ GameObject:
   - component: {fileID: 696514044}
   - component: {fileID: 696514043}
   - component: {fileID: 696514042}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6837,7 +6955,7 @@ GameObject:
   - component: {fileID: 701707971}
   - component: {fileID: 701707970}
   - component: {fileID: 701707969}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6928,7 +7046,7 @@ GameObject:
   m_Component:
   - component: {fileID: 709212546}
   - component: {fileID: 709212547}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7009,7 +7127,7 @@ GameObject:
   m_Component:
   - component: {fileID: 738449088}
   - component: {fileID: 738449089}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7090,6 +7208,10 @@ PrefabInstance:
     - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_Name
       value: Gras
+      objectReference: {fileID: 0}
+    - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 464626, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_LocalPosition.x
@@ -7214,6 +7336,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 945394c48e8d56e4a9271e24aecb0ca6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7229,6 +7356,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 945394c48e8d56e4a9271e24aecb0ca6, type: 3}
 --- !u!1 &772660141
@@ -7243,7 +7375,7 @@ GameObject:
   - component: {fileID: 772660145}
   - component: {fileID: 772660144}
   - component: {fileID: 772660143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (36)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7336,7 +7468,7 @@ GameObject:
   - component: {fileID: 775578700}
   - component: {fileID: 775578699}
   - component: {fileID: 775578698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7494,6 +7626,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 945394c48e8d56e4a9271e24aecb0ca6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -7509,6 +7646,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 945394c48e8d56e4a9271e24aecb0ca6, type: 3}
 --- !u!1 &778257676
@@ -7523,7 +7665,7 @@ GameObject:
   - component: {fileID: 778257680}
   - component: {fileID: 778257679}
   - component: {fileID: 778257678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7696,10 +7838,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -7719,7 +7871,7 @@ GameObject:
   m_Component:
   - component: {fileID: 786176094}
   - component: {fileID: 786176095}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7808,7 +7960,7 @@ GameObject:
   - component: {fileID: 795454909}
   - component: {fileID: 795454908}
   - component: {fileID: 795454907}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7899,7 +8051,7 @@ GameObject:
   m_Component:
   - component: {fileID: 810028951}
   - component: {fileID: 810028952}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8082,7 +8234,9 @@ GameObject:
   - component: {fileID: 833796103}
   - component: {fileID: 833796105}
   - component: {fileID: 833796104}
-  m_Layer: 0
+  - component: {fileID: 833796107}
+  - component: {fileID: 833796106}
+  m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}
@@ -8129,12 +8283,12 @@ Camera:
   m_CullingMask:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_RenderingPath: -1
+  m_RenderingPath: 3
   m_TargetTexture: {fileID: 0}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 1
-  m_AllowMSAA: 1
+  m_AllowMSAA: 0
   m_AllowDynamicResolution: 0
   m_ForceIntoRT: 0
   m_OcclusionCulling: 1
@@ -8277,6 +8431,83 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &833796106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833796099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sharedProfile: {fileID: 11400000, guid: a4272ce7e1c82e34a9be87b2271a3af8, type: 2}
+  isGlobal: 1
+  blendDistance: 0
+  weight: 0.7
+  priority: 0
+--- !u!114 &833796107
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833796099}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 948f4100a11a5c24981795d21301da5c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  volumeTrigger: {fileID: 833796102}
+  volumeLayer:
+    serializedVersion: 2
+    m_Bits: 256
+  stopNaNPropagation: 1
+  finalBlitToCameraTarget: 0
+  antialiasingMode: 1
+  temporalAntialiasing:
+    jitterSpread: 0.75
+    sharpness: 0.25
+    stationaryBlending: 0.95
+    motionBlending: 0.85
+  subpixelMorphologicalAntialiasing:
+    quality: 2
+  fastApproximateAntialiasing:
+    fastMode: 1
+    keepAlpha: 0
+  fog:
+    enabled: 1
+    excludeSkybox: 1
+  debugLayer:
+    lightMeter:
+      width: 512
+      height: 256
+      showCurves: 1
+    histogram:
+      width: 512
+      height: 256
+      channel: 3
+    waveform:
+      exposure: 0.12
+      height: 256
+    vectorscope:
+      size: 256
+      exposure: 0.12
+    overlaySettings:
+      linearDepth: 0
+      motionColorIntensity: 4
+      motionGridSize: 64
+      colorBlindnessType: 0
+      colorBlindnessStrength: 1
+  m_Resources: {fileID: 11400000, guid: d82512f9c8e5d4a4d938b575d47f88d4, type: 2}
+  m_ShowToolkit: 0
+  m_ShowCustomSorter: 0
+  breakBeforeColorGrading: 0
+  m_BeforeTransparentBundles: []
+  m_BeforeStackBundles: []
+  m_AfterStackBundles: []
 --- !u!1 &838454279
 GameObject:
   m_ObjectHideFlags: 0
@@ -8289,7 +8520,7 @@ GameObject:
   - component: {fileID: 838454283}
   - component: {fileID: 838454282}
   - component: {fileID: 838454281}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8380,7 +8611,7 @@ GameObject:
   m_Component:
   - component: {fileID: 839523925}
   - component: {fileID: 839523926}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8543,10 +8774,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -8566,7 +8807,7 @@ GameObject:
   m_Component:
   - component: {fileID: 873510956}
   - component: {fileID: 873510957}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8646,7 +8887,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 881101318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beams
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8687,7 +8928,7 @@ GameObject:
   - component: {fileID: 920636287}
   - component: {fileID: 920636286}
   - component: {fileID: 920636285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8780,7 +9021,7 @@ GameObject:
   - component: {fileID: 928974919}
   - component: {fileID: 928974918}
   - component: {fileID: 928974917}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8873,7 +9114,7 @@ GameObject:
   - component: {fileID: 944917945}
   - component: {fileID: 944917944}
   - component: {fileID: 944917943}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Plane (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -8967,7 +9208,7 @@ GameObject:
   - component: {fileID: 953867352}
   - component: {fileID: 953867351}
   - component: {fileID: 953867350}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9058,7 +9299,7 @@ GameObject:
   m_Component:
   - component: {fileID: 958951130}
   - component: {fileID: 958951131}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9276,7 +9517,7 @@ GameObject:
   - component: {fileID: 976195198}
   - component: {fileID: 976195197}
   - component: {fileID: 976195196}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9455,10 +9696,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -9614,6 +9865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gras
       objectReference: {fileID: 0}
+    - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 464626, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_LocalPosition.x
       value: -2.6439466
@@ -9672,7 +9927,7 @@ GameObject:
   - component: {fileID: 996643187}
   - component: {fileID: 996643186}
   - component: {fileID: 996643185}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9845,10 +10100,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -9870,7 +10135,7 @@ GameObject:
   - component: {fileID: 1001638712}
   - component: {fileID: 1001638711}
   - component: {fileID: 1001638710}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -9963,7 +10228,7 @@ GameObject:
   - component: {fileID: 1005233569}
   - component: {fileID: 1005233568}
   - component: {fileID: 1005233567}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10136,10 +10401,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69388d2436f675f4e8605d34f49d98cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 69388d2436f675f4e8605d34f49d98cb,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 69388d2436f675f4e8605d34f49d98cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69388d2436f675f4e8605d34f49d98cb, type: 3}
@@ -10161,7 +10436,7 @@ GameObject:
   - component: {fileID: 1014532732}
   - component: {fileID: 1014532731}
   - component: {fileID: 1014532730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10293,6 +10568,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _audioSource: {fileID: 356381561}
   _timeToWait: 3
+  _field: {fileID: 0}
+  _bonus: {fileID: 0}
+  _heightCorrection: 1
 --- !u!114 &1041986133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10337,8 +10615,7 @@ MonoBehaviour:
   _fireSpawner: {fileID: 598599335}
   _fireTemplates: {fileID: 5524816720562860775, guid: 340e11a8a8b6ddb479cc14eb7887eae3,
     type: 3}
-  _fireControl: {fileID: 598599334}
-  _bonusPositionsControl: {fileID: 1041986132}
+  _firePower: {fileID: 598599334}
   _bonus: {fileID: 1281387915}
   _collisionHandling: {fileID: 1041986133}
   _endGame: {fileID: 1041986131}
@@ -10479,6 +10756,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gras
       objectReference: {fileID: 0}
+    - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 464626, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_LocalPosition.x
       value: 8.627053
@@ -10534,7 +10815,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1061182797}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Environment
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10576,7 +10857,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1063995886}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beams
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10615,7 +10896,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1066652212}
   - component: {fileID: 1066652213}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -10822,10 +11103,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -11087,7 +11378,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1143870378}
   - component: {fileID: 1143870379}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11170,7 +11461,7 @@ GameObject:
   - component: {fileID: 1169420918}
   - component: {fileID: 1169420917}
   - component: {fileID: 1169420916}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11466,7 +11757,7 @@ GameObject:
   - component: {fileID: 1187080045}
   - component: {fileID: 1187080044}
   - component: {fileID: 1187080043}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11557,7 +11848,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1213911411}
   - component: {fileID: 1213911412}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11640,7 +11931,7 @@ GameObject:
   - component: {fileID: 1225608378}
   - component: {fileID: 1225608377}
   - component: {fileID: 1225608376}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11813,10 +12104,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -11838,7 +12139,7 @@ GameObject:
   - component: {fileID: 1246420975}
   - component: {fileID: 1246420974}
   - component: {fileID: 1246420973}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -11931,7 +12232,7 @@ GameObject:
   - component: {fileID: 1248025453}
   - component: {fileID: 1248025452}
   - component: {fileID: 1248025451}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12024,7 +12325,7 @@ GameObject:
   - component: {fileID: 1265371276}
   - component: {fileID: 1265371275}
   - component: {fileID: 1265371274}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12197,10 +12498,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69388d2436f675f4e8605d34f49d98cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 69388d2436f675f4e8605d34f49d98cb,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 69388d2436f675f4e8605d34f49d98cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69388d2436f675f4e8605d34f49d98cb, type: 3}
@@ -12234,7 +12545,7 @@ GameObject:
   - component: {fileID: 1289248960}
   - component: {fileID: 1289248959}
   - component: {fileID: 1289248958}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12324,7 +12635,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1292533640}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roofs
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12358,6 +12669,10 @@ PrefabInstance:
     - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_Name
       value: Gras
+      objectReference: {fileID: 0}
+    - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 464626, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_LocalPosition.x
@@ -12532,10 +12847,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -12637,10 +12962,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -12756,7 +13091,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1312507368}
   - component: {fileID: 1312507369}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -12986,7 +13321,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1320640476}
   - component: {fileID: 1320640477}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13069,7 +13404,7 @@ GameObject:
   - component: {fileID: 1325381700}
   - component: {fileID: 1325381699}
   - component: {fileID: 1325381698}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13297,7 +13632,7 @@ GameObject:
   - component: {fileID: 1347670151}
   - component: {fileID: 1347670150}
   - component: {fileID: 1347670149}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13612,7 +13947,7 @@ GameObject:
   - component: {fileID: 1387708999}
   - component: {fileID: 1387708998}
   - component: {fileID: 1387708997}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Roof
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13704,6 +14039,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Gras
       objectReference: {fileID: 0}
+    - target: {fileID: 137496, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 464626, guid: 8e29574f61c003a45a3cc9a571582336, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.732
@@ -13759,7 +14098,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1403466180}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: FloorBoards
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -13879,10 +14218,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -14070,10 +14419,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -14095,7 +14454,7 @@ GameObject:
   - component: {fileID: 1425317203}
   - component: {fileID: 1425317202}
   - component: {fileID: 1425317201}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14268,10 +14627,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -14291,7 +14660,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1451693655}
   - component: {fileID: 1451693656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -14444,6 +14813,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 945394c48e8d56e4a9271e24aecb0ca6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -14458,6 +14832,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 945394c48e8d56e4a9271e24aecb0ca6, type: 3}
@@ -14560,7 +14939,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1496681455
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14936,10 +15315,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 69388d2436f675f4e8605d34f49d98cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 69388d2436f675f4e8605d34f49d98cb,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 69388d2436f675f4e8605d34f49d98cb,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 69388d2436f675f4e8605d34f49d98cb, type: 3}
@@ -15035,7 +15424,7 @@ GameObject:
   - component: {fileID: 1536080819}
   - component: {fileID: 1536080818}
   - component: {fileID: 1536080817}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (35)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15128,7 +15517,7 @@ GameObject:
   - component: {fileID: 1543329984}
   - component: {fileID: 1543329983}
   - component: {fileID: 1543329982}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15221,7 +15610,7 @@ GameObject:
   - component: {fileID: 1550992528}
   - component: {fileID: 1550992527}
   - component: {fileID: 1550992526}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15394,10 +15783,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -15419,7 +15818,7 @@ GameObject:
   - component: {fileID: 1573606479}
   - component: {fileID: 1573606478}
   - component: {fileID: 1573606477}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15512,7 +15911,7 @@ GameObject:
   - component: {fileID: 1574129794}
   - component: {fileID: 1574129793}
   - component: {fileID: 1574129792}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15603,7 +16002,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1583724823}
   - component: {fileID: 1583724824}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15751,6 +16150,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 945394c48e8d56e4a9271e24aecb0ca6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -15765,6 +16169,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 945394c48e8d56e4a9271e24aecb0ca6, type: 3}
@@ -15786,7 +16195,7 @@ GameObject:
   - component: {fileID: 1624927343}
   - component: {fileID: 1624927342}
   - component: {fileID: 1624927341}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Cube (38)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -15879,7 +16288,7 @@ GameObject:
   - component: {fileID: 1633290120}
   - component: {fileID: 1633290119}
   - component: {fileID: 1633290118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16179,7 +16588,7 @@ GameObject:
   - component: {fileID: 1641940714}
   - component: {fileID: 1641940713}
   - component: {fileID: 1641940712}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16362,7 +16771,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1676433936}
   - component: {fileID: 1676433937}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16442,7 +16851,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1680497455}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: lamps
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16559,10 +16968,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -16612,7 +17031,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1707714554}
   - component: {fileID: 1707714555}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16695,7 +17114,7 @@ GameObject:
   - component: {fileID: 1727127116}
   - component: {fileID: 1727127115}
   - component: {fileID: 1727127114}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16885,7 +17304,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1737201799}
   - component: {fileID: 1737201800}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -16968,7 +17387,7 @@ GameObject:
   - component: {fileID: 1747551992}
   - component: {fileID: 1747551991}
   - component: {fileID: 1747551990}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17141,10 +17560,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -17166,7 +17595,7 @@ GameObject:
   - component: {fileID: 1763195641}
   - component: {fileID: 1763195640}
   - component: {fileID: 1763195639}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17339,10 +17768,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -17370,7 +17809,7 @@ GameObject:
   - component: {fileID: 1784850478}
   - component: {fileID: 1784850477}
   - component: {fileID: 1784850476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17463,7 +17902,7 @@ GameObject:
   - component: {fileID: 1800301184}
   - component: {fileID: 1800301183}
   - component: {fileID: 1800301182}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17553,7 +17992,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1810400417}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Other
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17594,7 +18033,7 @@ GameObject:
   - component: {fileID: 1836794298}
   - component: {fileID: 1836794297}
   - component: {fileID: 1836794296}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: High Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17685,7 +18124,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1843329650}
   - component: {fileID: 1843329651}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -17848,10 +18287,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -18088,10 +18537,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -18206,7 +18665,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1875860284}
   - component: {fileID: 1875860285}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18287,7 +18746,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1882573995}
   - component: {fileID: 1882573996}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18435,6 +18894,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 1151388028547126963, guid: 945394c48e8d56e4a9271e24aecb0ca6,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -18450,6 +18914,11 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 945394c48e8d56e4a9271e24aecb0ca6,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 945394c48e8d56e4a9271e24aecb0ca6, type: 3}
 --- !u!1 &1894003810
@@ -18464,7 +18933,7 @@ GameObject:
   - component: {fileID: 1894003814}
   - component: {fileID: 1894003813}
   - component: {fileID: 1894003812}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18555,7 +19024,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1900854810}
   - component: {fileID: 1900854811}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18638,7 +19107,7 @@ GameObject:
   - component: {fileID: 1961684986}
   - component: {fileID: 1961684985}
   - component: {fileID: 1961684984}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small Beam
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -18811,10 +19280,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -18834,7 +19313,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2023007716}
   - component: {fileID: 2023007717}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19029,7 +19508,7 @@ GameObject:
   - component: {fileID: 2046147093}
   - component: {fileID: 2046147092}
   - component: {fileID: 2046147091}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: ' Wall'
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19122,7 +19601,7 @@ GameObject:
   - component: {fileID: 2049579732}
   - component: {fileID: 2049579731}
   - component: {fileID: 2049579730}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Main Platform
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19295,10 +19774,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -19326,7 +19815,7 @@ GameObject:
   - component: {fileID: 2072459591}
   - component: {fileID: 2072459590}
   - component: {fileID: 2072459589}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -19499,10 +19988,20 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967295
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
+      objectReference: {fileID: 0}
     - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
         type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
+      objectReference: {fileID: 0}
+    - target: {fileID: 8164078558771037576, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee,
+        type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8b10eaf4c42a52843a5d6f18eb8cd5ee, type: 3}
@@ -19651,7 +20150,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2102465158}
   - component: {fileID: 2102465159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Arena Tile Sprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
