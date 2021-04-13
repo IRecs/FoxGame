@@ -10566,11 +10566,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c428f3366e71b84e8bb0e8352f85e8d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _audioSource: {fileID: 356381561}
-  _timeToWait: 3
-  _field: {fileID: 0}
-  _bonus: {fileID: 0}
-  _heightCorrection: 1
 --- !u!114 &1041986133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14273,7 +14268,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0319bcd8030ad84dbabbc791dd0efe9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _timeWait: 0
+  _timeWait: 0.5
 --- !u!114 &1419754294
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -14939,7 +14934,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1496681455
 MonoBehaviour:
   m_ObjectHideFlags: 0

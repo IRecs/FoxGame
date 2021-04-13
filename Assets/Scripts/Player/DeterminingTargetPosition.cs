@@ -22,12 +22,12 @@ public class DeterminingTargetPosition : MonoBehaviour
     private void OnEnable()
     {
         _moverPlayer = GetComponent<MoverPlayer>();
-        _moverPlayer.PointReached += OnChangeCurentPosition;
+        _moverPlayer.PointReached += OnPointReached;
     }
 
     private void OnDisable()
     {
-        _moverPlayer.PointReached -= OnChangeCurentPosition;
+        _moverPlayer.PointReached -= OnPointReached;
     }
 
     public void SetCollisionHandling(CollisionHandling collisionHandling)
@@ -59,16 +59,16 @@ public class DeterminingTargetPosition : MonoBehaviour
         _canChangeDirection = true;
     }
 
-    public void OnChangeCurentPosition()
+    public void OnPointReached()
     {
         _curentPointNumber = _targetPointNumber;
         _curentPoint = _targetPoint;
         _curentPoint.SetPointContent(gameObject);
         PositionСhanged?.Invoke(_curentPointNumber, transform.rotation);
-        RefreshTargetPoint();
+        TryRefreshTargetPoint();
     }
 
-    public bool RefreshTargetPoint()
+    public bool TryRefreshTargetPoint()
     {
         _targetPointNumber = _curentPointNumber + _direction;
 
@@ -79,7 +79,5 @@ public class DeterminingTargetPosition : MonoBehaviour
         }
 
         return false;
-    }
-
-    
+    }    
 }
