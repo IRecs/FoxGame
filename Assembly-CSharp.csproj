@@ -66,6 +66,8 @@
   <ItemGroup>
     <Compile Include="Assets\Audio\AudioPlayer.cs" />
     <Compile Include="Assets\Audio\AudioSettings.cs" />
+    <Compile Include="Assets\Scripts\AnimatorEndPanelController.cs" />
+    <Compile Include="Assets\Scripts\AnimatorModelController.cs" />
     <Compile Include="Assets\Scripts\Fire\Fire.cs" />
     <Compile Include="Assets\Scripts\Fire\FirePool.cs" />
     <Compile Include="Assets\Scripts\Fire\FirePower.cs" />

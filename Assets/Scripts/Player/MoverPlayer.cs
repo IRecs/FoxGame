@@ -39,5 +39,4 @@ public class MoverPlayer : MonoBehaviour
                 PointReached?.Invoke();
             }
     }
-
 }

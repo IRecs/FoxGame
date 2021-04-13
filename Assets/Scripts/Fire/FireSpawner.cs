@@ -15,7 +15,7 @@ public class FireSpawner : FirePool
     {
         _field = field;
         _playerPositionsControl = playerPositionsControl;
-        _playerPositionsControl.PositionСhanged += OnSetFire;
+        _playerPositionsControl.PositionСhanged += OnPositionСhanged;
     }
 
     private void OnEnable()
@@ -25,10 +25,10 @@ public class FireSpawner : FirePool
 
     private void OnDisable()
     {
-        _playerPositionsControl.PositionСhanged -= OnSetFire;
+        _playerPositionsControl.PositionСhanged -= OnPositionСhanged;
     }
 
-    private void OnSetFire(Vector2Int spawnPointNumber, Quaternion rotation)
+    private void OnPositionСhanged(Vector2Int spawnPointNumber, Quaternion rotation)
     {
         if (TryGetObject(out GameObject fire))
         {

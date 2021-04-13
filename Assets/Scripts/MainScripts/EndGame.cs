@@ -12,9 +12,9 @@ public class EndGame : MonoBehaviour
 
     public void FinishGame()
     {
-        _playerAnimator.SetBool("Die", true);
+        _playerAnimator.SetBool(AnimatorModelController.Params.Die, true);
         _endPanelAnimator.gameObject.SetActive(true);
-        _endPanelAnimator.SetBool("End", true);
+        _endPanelAnimator.SetBool(AnimatorEndPanelController.Params.End, true);
         StartCoroutine(End());
     }
 

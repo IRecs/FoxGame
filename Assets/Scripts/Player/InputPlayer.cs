@@ -68,8 +68,8 @@ public class InputPlayer : MonoBehaviour
             if (_isFirstStep)
             {
                 _isFirstStep = false;
-                _animator.SetBool("Move", true);
-                _positionControl.OnChangeCurentPosition();
+                _animator.SetBool(AnimatorModelController.Params.Move, true);
+                _positionControl.OnPointReached();
             }
         }
     }
